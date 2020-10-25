@@ -1,0 +1,16 @@
+crawler:
+  worker_count: 10
+  timeout: 1 # min
+  page_timeout: 3000 # ms
+
+server:
+  port: 8080
+
+data_base:
+  driver: "postgres"
+  username: "daniel"
+  password: "daniel"
+  host: "localhost"
+  port: "5432"
+  name: "testbase"
+  ssl_mode: "disable"
